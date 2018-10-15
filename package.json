@@ -1,0 +1,15 @@
+{
+  "name": "cm",
+  "version": "1.0.0",
+  "description": "Made By Chuckles#7837",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chuckles#7837",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "opusscript": "0.0.6"
+  }
+}
