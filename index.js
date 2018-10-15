@@ -1,8 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const config = require('./config.json');
 
-  client.on("ready", () => {
+   client.on("ready", () => {
     console.log(`I have started, Don Chuckles.`); 
     client.user.setActivity(`members in the Circus Mafia.`, {type:"WATCHING"});
   });
