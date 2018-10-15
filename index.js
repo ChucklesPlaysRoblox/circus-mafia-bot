@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
    client.on("ready", () => {
     console.log(`I have started, Don Chuckles.`); 
-    client.user.setActivity(`members in the Circus Mafia.`, {type:"WATCHING"});
+    client.user.setActivity(`members.`, {type:"WATCHING"});
   });
        
   client.on("guildMemberAdd", function(member) {
